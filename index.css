@@ -1,0 +1,132 @@
+/* conteúdo */
+
+main{
+    display: flex;
+    flex-grow: 1;
+}
+
+main>div{
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#seletor-imagens{
+    margin: 0 40px;
+    background-image: url(./images/iphone-x-tela.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    min-width: 260px;
+    min-height: 520px;
+}
+
+/* parte do login */
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.div-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+}
+
+#login-inputs{
+    flex-grow: 1;
+    padding: 40px;
+}
+
+#login-inputs img{
+    margin: 40px 0;
+}
+
+
+#login-inputs div{
+    flex-grow: 1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    flex-grow: 2;  
+    width: 100%;
+}
+
+form input{
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin: 5px 0;
+    width: 250px;
+    height: 35px;
+    background-color: #FAFAFA;
+    padding: 0 10px;
+}
+
+form button{
+    width: 275px;
+    height: 30px;
+    background-color: #B2DFFC;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#cadastre-se{
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+#cadastre-se a{
+    color: #3997F6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#obtenha-o-aplicativo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#obtenha-o-aplicativo p{
+    margin-bottom: 20px;
+}
+
+#obtenha-o-aplicativo a, #obtenha-o-aplicativo img{
+    max-width: 125px;
+    max-height: 40px;
+}
+
+/* imagem de celular */
+
+
+main>div>div>div>img {
+    transform: scale(0.9) translateX(5px) translateY(-12px);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 4000ms;
+    
+}
+
+/* #instagram-imagem{
+    opacity: 1;
+} */
+
+.instagram-imagem-atual{
+    opacity: 1;
+}
+/* #DBDBDB */
+/* #9C8E9C */
